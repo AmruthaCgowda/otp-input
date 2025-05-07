@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP input</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white p-6 rounded shadow-md w-full max-w-md text-center">
+        <h2 class="text-2xl font-bold mb-4">Enter OTP</h2>
+        <div class="flex justify-center gap-2 mb-4">
+          <input type="text" maxlength="1" class="otp-input w-12 h-12 border rounded text-center text-xl focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" maxlength="1" class="otp-input w-12 h-12 border rounded text-center text-xl focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" maxlength="1" class="otp-input w-12 h-12 border rounded text-center text-xl focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" maxlength="1" class="otp-input w-12 h-12 border rounded text-center text-xl focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" maxlength="1" class="otp-input w-12 h-12 border rounded text-center text-xl focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" maxlength="1" class="otp-input w-12 h-12 border rounded text-center text-xl focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+        <button id="submitOtp" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">
+          Submit
+        </button>
+        <p id="result" class="mt-4 text-lg font-medium text-green-600 hidden"></p>
+    </div>
+
+  </body>
+</html>
